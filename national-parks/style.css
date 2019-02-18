@@ -1,0 +1,282 @@
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+}
+
+/* :root {
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+} */
+
+body {
+  font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  z-index: 2;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+/* div {
+  display: block;
+} */
+
+header.masthead {
+  position: relative;
+  background-color: #343a40;
+  background: url(img/img_1.jpg) no-repeat center center;
+  background-size: cover;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+header.masthead .overlay {
+  position: absolute;
+  background-color: #212529;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.section-1 {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.col-lg-4 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.col-lg-6 {
+  position: relative;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.iconify {
+  color: #007bff;
+  width: 5rem;
+  height: 5rem;
+  padding-bottom: 1rem;
+}
+
+.section-2-img-1 {
+  background-image: url(gsmnp-backpacking-campers.png);
+  min-height: 30rem;
+  background-size: cover;
+}
+
+.section-2-img-2 {
+  background-image: url(img/stock-photo-2.jpeg);
+  min-height: 30rem;
+  background-size: cover;
+}
+
+.section-2-img-3 {
+  background-image: url(img/stock-photo-3.jpeg);
+  min-height: 30rem;
+  background-size: cover;
+}
+
+.section-3-img {
+  max-width: 12rem;
+  background-size: cover;
+}
+
+.mb-3 {
+  margin-bottom: 1rem !important;
+}
+
+.no-gutters {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.p-0 {
+  padding: 0 !important;
+}
+
+@media (min-width: 992px) {
+  .order-lg-2 {
+    -ms-flex-order: 2;
+    order: 2;
+  }
+}
+
+/* @media (min-width: 992px) {
+  .col-lg-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+} */
+
+@media (min-width: 768px) {
+  .section-2 .section-2-text {
+    padding: 7rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .order-lg-1 {
+    -ms-flex-order: 1;
+    order: 1;
+  }
+}
+
+/* @media (min-width: 992px) {
+  .col-lg-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+} */
+
+.section-2 .section-2-text {
+  padding: 3rem;
+}
+
+.section-3-intro {
+  padding-top: 8rem;
+  padding-bottom: 6rem;
+}
+
+.rounded-circle {
+  border-radius: 50% !important;
+  border-top-left-radius: 50% !important;
+  border-top-right-radius: 50% !important;
+  border-bottom-right-radius: 50% !important;
+  border-bottom-left-radius: 50% !important;
+}
+
+.section-3 .col-lg-4 {
+  padding-bottom: 8rem;
+}
+
+.img-fluid {
+  height: auto;
+}
+
+.contact-me {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.contact-me a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+#email-split {
+  width: 50%;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  border: 0;
+  border-top: 0.5px solid rgb(87, 87, 87);
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-lg-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 33.3333%;
+    max-width: 33.333333%;
+  }
+}
